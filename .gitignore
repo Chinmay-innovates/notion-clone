@@ -8,7 +8,8 @@
 
 # testing
 /coverage
-
+.env
+/.truck/
 # next.js
 /.next/
 /out/
