@@ -108,7 +108,7 @@ export const Item = ({
 			{documentIcon ? (
 				<div className="shrink-0 mr-2 text-[18px]">{documentIcon}</div>
 			) : (
-				<Icon className="shrink-0 mr-2 text-muted-foreground h-[18px]" />
+				<Icon className="shrink-0 mr-2 text-muted-foreground size-[18px]" />
 			)}
 			<span className="truncate">{label}</span>
 			{isSearch && (

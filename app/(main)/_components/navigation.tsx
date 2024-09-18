@@ -31,6 +31,7 @@ import { api } from "@/convex/_generated/api";
 import { useSearch } from "@/hooks/use-search";
 import { useSettings } from "@/hooks/use-settings";
 import { Navbar } from "./navbar";
+import { useSidebar } from "@/hooks/use-sidebar";
 
 export const Navigation = () => {
 	const router = useRouter();
@@ -127,6 +128,7 @@ export const Navigation = () => {
 			error: "Failed to create a new note.",
 		});
 	};
+
 
 	return (
 		<>
